@@ -1,0 +1,25 @@
+Lets make a better tool for Joy!
+Problem Statement: Joy is really happy with the simple search method you developed in the previous section. But now he wants to build a grapical user interface for it and also want to connect it with a real data source (REST API).
+
+So his requirements are:
+It should be a single page application created using html and vanilla javascript (Avoid using any JS frameworks and libraries) (Required html & css are provided, get it here )
+
+There should be a search box where he can search by name (Case insensitive). Search results should get updated on each key stroke. Use the searched term as a substring.
+
+Just below the search box, there should be a table to display the cafe list. When the search box is empty, the table should show all the cafes. And when something is being entered in the search box, it should show the filterd results.
+
+When the page is loaded, fetch the cafes and places from the given endpoints and use them to generate the cafe list.
+
+API endpoints:
+GET REQUEST: https://raw.githubusercontent.com/debojyoti/places-fake-rest-api/master/cafes.json
+
+GET REQUEST: https://raw.githubusercontent.com/debojyoti/places-fake-rest-api/master/places.json
+
+Below is the sample preview of the application
+
+
+
+Note: Special credits will be given for
+Clean and properly structured code
+Optimised performance
+Lesser runtime complexity
